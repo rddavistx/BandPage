@@ -1,0 +1,180 @@
+html,
+body {
+    height: 100%;
+}
+
+#hero {
+    margin-top: 50px;
+    background-image: url(../img/tpt.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+
+#hero>div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#hero h1 {
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    text-shadow: 3px 3px black;
+    font-size: 50px;
+}
+
+#hero p {
+    color: goldenrod;
+    font-size: 30px;
+    text-shadow: 3px 3px black;
+    padding-bottom: 40px;
+}
+
+#hero a {
+    border: 3px solid black;
+    color: white;
+    padding: 10px;
+    background-color: #00008b;
+}
+
+.americo {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.life {
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.class_intro {
+    font-family: 'Raleway', cursive;
+}
+
+h2 {
+    font-family: "Felipa", cursive;
+    font-size: 50px;
+}
+
+h3 {
+    font-family: 'Raleway', cursive;
+    font-size: 40px;
+}
+
+.date {
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.classes {
+    background-color: #e6ac00;
+    text-align: center;
+}
+
+.classes img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.events {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 60px;
+}
+
+.performance {
+    width: 100%;
+}
+
+.dates {
+    font-size: 20px;
+}
+
+.concert {
+    padding-bottom: 30px;
+}
+
+#bottom {
+    background-image: url(../img/musical-design-1153444-1599x1492.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    display: table;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#bottom h1 {
+    font-size: 50px;
+    padding: 30px 0 40px 20px;
+    color: darkgoldenrod;
+    text-shadow: 2px 2px black;
+}
+
+#bottom h2 {
+    font-family: sans-serif;
+    color: darkgoldenrod;
+    text-shadow: 2px 2px black;
+}
+
+#bottom h4 {
+    color: white;
+    font-family: 'Tahoma', sans-serif;
+}
+
+#bottom h5 {
+    color: white;
+    font-family: 'Tahoma', sans-serif;
+}
+
+#bottom p {
+    color: black;
+    padding-bottom: 40px;
+}
+
+.contact {
+    width: 50%;
+    height: 70%;
+    text-align: center;
+    border: 3px solid white;
+}
+
+#bottom a {
+    color: black;
+    border: 3px solid white;
+    padding: 5px 15px;
+    background-color: darkgoldenrod;
+}
+
+#map {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+/*phone*/
+
+@media (max-width:768px) {
+    #hero h1 {
+        font-size: 4em;
+    }
+    .navbar-toggle {
+        float: none;
+    }
+}
+
+
+/*tablet*/
+
+@media (min-width:769px) and (max-width: 992px) {
+    #hero h1 {
+        font-size: 4.5em;
+    }
+}
