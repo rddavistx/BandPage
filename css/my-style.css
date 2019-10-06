@@ -76,7 +76,7 @@ h3 {
 }
 
 .classes img {
-    width: 100%;
+    /* width: 100%; */
     margin-top: 20px;
 }
 
@@ -84,6 +84,18 @@ h3 {
     text-align: center;
     padding-top: 15px;
     font-size: 60px;
+}
+
+.responsiveCal {
+
+position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+
+}
+
+.responsiveCal iframe {
+
+position: absolute; top:0; left: 0; width: 100%; height: 100%;
+
 }
 
 .performance {
@@ -109,6 +121,7 @@ h3 {
     width: 100%;
     text-align: center;
     padding-bottom: 25px;
+    margin-top: 20px;
 }
 
 #bottom h1 {
